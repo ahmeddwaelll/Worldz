@@ -6,9 +6,22 @@ import java.time.Period;
 
 class database {
 
-    static String path = "jdbc:mysql://mysql-26f97989-projectt.d.aivencloud.com:21775/login";
-    static String user = "avnadmin";
-    String password = System.getenv("DB_PASSWORD");
+    static String path;
+    static String user;
+    static String pass;
+
+    // Credentials live in config/db.properties (git-ignored), see config/db.properties.example
+    static {
+        java.util.Properties props = new java.util.Properties();
+        try (java.io.FileInputStream in = new java.io.FileInputStream("config/db.properties")) {
+            props.load(in);
+        } catch (java.io.IOException e) {
+            throw new RuntimeException("Missing config/db.properties - copy config/db.properties.example and fill it in", e);
+        }
+        path = props.getProperty("db.url");
+        user = props.getProperty("db.user");
+        pass = props.getProperty("db.password");
+    }
     public static void Register(String email,String password, String username, String phone , String gender, String birthday,String bio) throws SQLException {
         LocalDate dateOfBirth = LocalDate.parse(birthday);
         int age = calculateAge(dateOfBirth);
