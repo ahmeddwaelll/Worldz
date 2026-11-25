@@ -47,7 +47,7 @@
                <graphic>
                   <ImageView fitHeight="34.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="file:/C:/Users/ahmed/IdeaProjects/FinallProject/src/refresh.png" />
+                        <Image url="@refresh.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -93,7 +93,7 @@
             </Label>
             <ImageView fitHeight="52.0" fitWidth="52.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:/C:/Users/ahmed/IdeaProjects/FinallProject/src/earth.png" />
+                  <Image url="@earth.png" />
                </image>
             </ImageView>
          </children>

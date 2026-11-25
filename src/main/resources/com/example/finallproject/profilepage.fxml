@@ -22,7 +22,7 @@
                     <graphic>
                         <ImageView fitHeight="26.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="file:/C:/Users/ahmed/IdeaProjects/FinallProject/src/home.png" />
+                                <Image url="@home.png" />
                             </image></ImageView>
                     </graphic>
                 </Button>
@@ -33,7 +33,7 @@
                     <graphic>
                         <ImageView fitHeight="26.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="file:/C:/Users/ahmed/IdeaProjects/FinallProject/src/profile.png" />
+                                <Image url="@profile.png" />
                             </image>
                         </ImageView>
                     </graphic>
@@ -45,7 +45,7 @@
                     <graphic>
                         <ImageView fitHeight="26.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="file:/C:/Users/ahmed/IdeaProjects/FinallProject/src/settings.png" />
+                                <Image url="@settings.png" />
                             </image>
                         </ImageView>
                     </graphic>
@@ -57,7 +57,7 @@
                     <graphic>
                         <ImageView fitHeight="26.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="file:/C:/Users/ahmed/IdeaProjects/FinallProject/src/logout.png" />
+                                <Image url="@logout.png" />
                             </image>
                         </ImageView>
                     </graphic>
@@ -84,7 +84,7 @@
                 </Text>
             <ImageView fx:id="profilepicture" fitHeight="174.0" fitWidth="168.0" layoutX="416.0" layoutY="105.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="file:/C:/Users/ahmed/IdeaProjects/FinallProject/src/profileph.png" />
+                  <Image url="@profileph.png" />
                </image>
             </ImageView>
             <Button fx:id="posts" alignment="CENTER" layoutX="539.0" layoutY="550.0" mnemonicParsing="false" onAction="#openposts" prefHeight="60.0" prefWidth="204.0" style="-fx-background-color: #074fbe; -fx-background-radius: 30;" text="My posts" textFill="#101010">
@@ -102,7 +102,7 @@
                 </Label>
                 <ImageView fitHeight="52.0" fitWidth="52.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                     <image>
-                        <Image url="file:/C:/Users/ahmed/IdeaProjects/FinallProject/src/earth.png" />
+                        <Image url="@earth.png" />
                     </image>
                 </ImageView>
             </children>
