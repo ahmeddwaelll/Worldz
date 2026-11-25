@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>FinallProject</artifactId>
+    <artifactId>WorldZ</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>FinallProject</name>
+    <name>WorldZ</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
