@@ -39,3 +39,6 @@ build/
 
 ### Database credentials ###
 config/db.properties
+
+### JVM crash logs ###
+hs_err_pid*.log
